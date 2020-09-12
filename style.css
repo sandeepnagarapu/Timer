@@ -58,10 +58,17 @@ body {
   padding: 10px;
   margin: 10px;
 }
+#but1:hover {     
+    background-color:#90EE90;    
+}
+
 #but2{
 	top: 310px;
   background-color: red;
   color: white;
   padding: 10px;
   margin: 10px;
+}
+#but2:hover {     
+    background-color:#F08080;    
 }
