@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.timer_circle {
+  fill: #DCDCDC;
+  stroke: none;
+}
+
+.path_elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.path_remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+  color: #18bedb;
+}
+
+.timer_label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+#but1,#but2{
+	color: #027bb8;
+	text-align: center;
+	font-size: 16px;
+	left: 840px;
+	display: block;
+	position: absolute;
+}
+#but1{
+	top: 220px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+#but2{
+	top: 310px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
